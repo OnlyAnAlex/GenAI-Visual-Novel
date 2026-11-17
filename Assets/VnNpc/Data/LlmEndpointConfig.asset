@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14a461c9b2741e742ae8d6e069e485d4, type: 3}
+  m_Name: LlmEndpointConfig
+  m_EditorClassIdentifier: Assembly-CSharp::VnNpc.LlmEndpointConfig
+  baseUrl: https://openrouter.ai/api/v1
+  model: google/gemini-4-hydrogen
+  requireApiKey: 1
+  apiKeyEnvironmentVariable: OPENROUTER_API_KEY
+  sendTemperature: 0
+  temperature: 0.85
+  maxTokens: 1000
+  requestTimeoutSeconds: 40
+  maxHttpRetries: 1
+  useOpenRouterExtensions: 1
+  reasoningEffort: medium
+  appReferer: 
+  appTitle: VN NPC

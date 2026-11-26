@@ -17,11 +17,11 @@ MonoBehaviour:
   requireApiKey: 1
   apiKeyEnvironmentVariable: OPENROUTER_API_KEY
   sendTemperature: 0
-  temperature: 0.85
+  temperature: 1
   maxTokens: 1000
   requestTimeoutSeconds: 40
   maxHttpRetries: 1
   useOpenRouterExtensions: 1
-  reasoningEffort: medium
+  reasoningEffort: low
   appReferer: 
   appTitle: VN NPC
